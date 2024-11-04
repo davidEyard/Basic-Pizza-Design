@@ -1,0 +1,103 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b0c10;
+    color: #c5c6c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f2833;
+    color: #66fcf1;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+/* Main Section */
+main {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #45a29e;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu li {
+    margin-bottom: 10px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #45a29e;
+    border-radius: 5px;
+    background-color: #0b0c10;
+    color: #c5c6c7;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #66fcf1;
+    color: #0b0c10;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a29e;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1f2833;
+    color: #66fcf1;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
